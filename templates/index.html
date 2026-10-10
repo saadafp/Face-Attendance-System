@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance system</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background: #111; color: #eee; }
+        img { border: 2px solid #444; max-width: 640px; }
+        #faces-list { margin-top: 20px; font-size: 1.2em; }
+        .face-name { display: inline-block; margin: 5px 10px; padding: 6px 14px; border-radius: 6px; }
+        .status-registered { background: #2e7d32; }
+        .status-verifying  { background: #f9a825; color: #111; }
+        .status-unknown    { background: #616161; }
+    </style>
+</head>
+<body>
+    <h1>Attendance system</h1>
+
+    <img src="/video_feed" alt="Live camera feed">
+
+    <div id="faces-list">loading...</div>
+
+    <script src="{{ url_for('static', filename='js/poll_faces.js') }}"></script>
+</body>
+</html>
