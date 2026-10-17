@@ -129,8 +129,7 @@ Defined at the top of `service/presence.py`:
 - No liveness / anti-spoofing: a printed photo or a screen can be recognized.
 - One mean embedding per person is a single prototype, so it is weaker than per-image matching under large pose or lighting changes.
 - Matching is a brute-force dot product: fine for hundreds of identities, not for very large galleries.
-- A person is registered once per process lifetime; there is no per-day reset yet.
-- `cv2.CAP_DSHOW` makes webcam capture Windows-specific.
+
 
 ## Roadmap
 
