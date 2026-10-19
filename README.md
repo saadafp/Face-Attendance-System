@@ -2,7 +2,7 @@
 
 Real-time attendance system that recognizes faces from a webcam or a video file, logs each person once to a database, and shows the live feed and recognized names in the browser.
 
-![demo](demo.gif)
+![demo](assets/demo.gif)
 
 <!-- Add a screenshot or GIF here: docs/demo.gif -->
 <!-- ![Demo](docs/demo.gif) -->
